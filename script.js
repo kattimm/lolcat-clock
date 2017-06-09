@@ -54,7 +54,7 @@ var updateClock = function()
             image = "https://s3.postimg.org/sm8pxcntf/sunshine-smile-cat.jpg";
             msg = "Good morning, sunshine!";
         }
-        else if (12 < time && time < 17) {
+        else if (12 <= time && time < 17) {
             image = "https://s-media-cache-ak0.pinimg.com/736x/c5/8c/ba/c58cba0d3f9feea119146efadd83f14d.jpg";
             msg = "Afternoon, hot stuff!";
         }
